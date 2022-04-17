@@ -1,0 +1,17 @@
+#use "topfind";;
+#directory "_build";;
+#load "assert.cmo";;
+#load "imp.cmo";;
+#load "queueInterface.cmo";;
+#load "simpleQueue.cmo";;
+#load "linkedQueue.cmo";;
+#load "queueTest.cmo";;
+#load "deque.cmo";;
+#load "dequeTest.cmo";;
+#load "graph.cmo";;
+#use "imp.ml";;
+#use "queueInterface.ml";;
+#use "simpleQueue.ml";;
+#use "linkedQueue.ml";;
+#use "deque.ml";;
+#use "graph.ml";;

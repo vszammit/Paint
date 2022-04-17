@@ -1,0 +1,12 @@
+{
+    "toLint": ["./gctx.ml", "./widget.ml", "./paint.ml"],
+    "global": {
+	"disable": ["TupleProj", "LitPrepend"]
+    }, 
+    "locals": [
+	{ "paint_action": {"disable": ["NestedMatch"]} },
+	{ "open_graphics": {"disable": ["IfNotCond"]} }
+    ]
+}
+
+
